@@ -1,0 +1,10 @@
+.searchbox{
+    /* background-color:rgb(0, 0, 255); */
+    width: 40%;
+    height: 10%;
+    box-shadow: none;
+    border : whitesmoke solid 2px;
+    border-radius: 5px;
+    color : black;
+    
+}
