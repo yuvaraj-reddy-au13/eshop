@@ -9,7 +9,7 @@ import Paginate from '../components/Paginate'
 import ProductCarousel from '../components/ProductCarousel'
 import Meta from '../components/Meta'
 import { listProducts } from '../actions/productActions'
-import ProductNav from '../components/ProductNav.js'
+// import ProductNav from '../components/ProductNav.js'
 import { Container } from '@material-ui/core'
 
 const HomeScreen = ({ match }) => {
@@ -28,7 +28,7 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
-      {/* <ProductNav /> */}
+
       <Meta />
       {!keyword ? (
         <ProductCarousel />
